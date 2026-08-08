@@ -1,0 +1,32 @@
+Sample 1
+Hi, I'm Sarah Khan.
+My package hasn't arrived for 12 days.
+My email is sarah@gmail.com.
+Please help immediately.
+
+
+Sample 2
+I was charged twice this month.
+
+Email:
+alex99@yahoo.com
+
+
+Sample 3
+Hello,
+My account keeps logging me out.
+My name is David.
+
+
+Sample 4
+Laptop app crashes every time I upload a file.
+
+Regards,
+Emily
+
+emily@test.com
+
+
+Sample 5
+Thanks!
+Everything works perfectly now.

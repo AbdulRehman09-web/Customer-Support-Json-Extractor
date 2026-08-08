@@ -1,0 +1,50 @@
+{
+  "type": "object",
+  "properties": {
+    "customer_name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "issue_type": {
+      "type": "string",
+      "enum": [
+        "Billing",
+        "Technical",
+        "Account",
+        "Shipping",
+        "Refund",
+        "Other"
+      ]
+    },
+    "urgency": {
+      "type": "string",
+      "enum": [
+        "Low",
+        "Medium",
+        "High",
+        "Critical"
+      ]
+    },
+    "summary": {
+      "type": "string"
+    },
+    "sentiment": {
+      "type": "string",
+      "enum": [
+        "Positive",
+        "Neutral",
+        "Negative"
+      ]
+    }
+  },
+  "required": [
+    "customer_name",
+    "email",
+    "issue_type",
+    "urgency",
+    "summary",
+    "sentiment"
+  ]
+}
