@@ -77,24 +77,9 @@ print(result)
 customer-support-json-extractor/
 ├── README.md
 ├── requirements.txt
-├── setup.py
-├── extractor/
-│   ├── __init__.py
-│   ├── main.py           # Main extraction logic
-│   ├── models.py         # Data models and schemas
-│   ├── parser.py         # Text parsing utilities
-│   └── prompts.py        # AI prompts and templates
-├── tests/
-│   ├── __init__.py
-│   ├── test_extractor.py
-│   └── test_samples.py
-├── examples/
-│   ├── sample_inputs.txt
-│   ├── sample_outputs.json
-│   └── demo.py
-└── docs/
-    ├── API.md
-    └── integration_guide.md
+├── prompt.txt
+├── schema.json
+└── test.py
 ```
 
 ## 🔧 Configuration
